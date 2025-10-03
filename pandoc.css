@@ -64,6 +64,9 @@ dd p {
         margin-top: 0;
 }
 
+.spaced { margin: 0; padding-left: 1.25rem; }      /* keep list formatting tidy */
+.spaced li { margin-block: 0.25rem; }               /* adds space above & below each li */
+
 #footer {
         padding-top: 1em;
         font-size: 70%;
