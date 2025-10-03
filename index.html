@@ -57,20 +57,13 @@
 	-->
 
 	<h1 id="biography">Biography</h1>
-		<p>I am a fifth-year Ph.D. student at the <a href="https://www.bu.edu/cs/"> Department of Computer Science </a> at Boston University, 
-			currently advised by <a href="https://www.bu.edu/cs/profiles/homer/">Prof. Steven Homer</a>.
-			In general, I am interested in Computational Complexity Theory and Algorithm Design. My research focuses on 
-			Circuit Complexity and Meta-Complexity. In particular, I study the mysterious Minimum Circuit Size Problem (MCSP)
-			and focus on proving some barriers on proving its hardness as well as its connections with other topics
-			in Theoretical Computer Science.
+		<p>I am a fifth-year Ph.D. student at the <a href="https://www.bu.edu/cs/"> Department of Computer Science </a> at Boston University, currently advised by <a href="https://www.bu.edu/cs/profiles/homer/">Prof. Steven Homer</a>. In general, I am interested in Computational Complexity Theory and Algorithm Design. My research focuses on Circuit Complexity and Meta-Complexity. In particular, I study the mysterious Minimum Circuit Size Problem (MCSP) and focus on proving some barriers on proving its hardness as well as its connections with other topics in Theoretical Computer Science.
 		</p>
-		<p>During the time when I am not occupied with my main research, I tend to participate in Kaggle's Competitions on different types of
-			of problems such as regression, text classifying, etc. to self-study and enhance my basic knowledge in Machine Learning and Data Science.
-			Visit my Github (link above) for the full collection of side projects I have done. Some are listed <a href="#personal-project"> below</a>.
+		<p>During the time when I am not occupied with my main research, I tend to participate in Kaggle's and Coursera's challenges on different types of problems such as regression, text classifying, etc. to self-study and enhance my basic knowledge in Machine Learning and Data Science. Visit my Github (link above) for the full collection of side projects I have done. Some are listed <a href="#personal-project"> below</a>.
 		</p>
 		<p>In May 2020, I received a B.A. with Summa Cum Laude and High Honors in Computer Science from Clark University where I was advised by
-			<a href="https://mathcs.clarku.edu/~fgreen/">Prof. Frederick Green</a>. I did some research on Human-Computer Interaction (HCI) during 
-			my undergraduate study under the guidance of <a href="http://www.cs.clarku.edu/~jmagee/">Prof. John Magee</a>.
+		<a href="https://mathcs.clarku.edu/~fgreen/">Prof. Frederick Green</a>. I did some research on Human-Computer Interaction (HCI) during 
+		my undergraduate study under the guidance of <a href="http://www.cs.clarku.edu/~jmagee/">Prof. John Magee</a>.
 		</p>
 
 	<h1 id="teaching">Teaching Experience </h1>
@@ -78,8 +71,8 @@
 			<li> Teaching Fellow
 				<ul>
 					<li> CS630 - Graduates Algorithms (Fall 2021) </li>
-					<li> CS332 - Theory of Computation (Spring 2023, Fall 2023, 2024) </li>
-					<li> CS235 - Algebraic Algorithms (Spring 2021)</li>
+					<li> CS332 - Theory of Computation (Spring 2023, Fall 2023, 2024)</li>
+					<li> CS235 - Algebraic Algorithms (Spring 2021, Fall 2025)</li>
 					<li> CS237 - Probability in Computing (Summer 2024)</li>
 					<li> CS132 - Geometric Algorithms (Summer 2022) </li>
 					<li> CS131 - Combinatoric Structures (Summer 2022, 2023) </li>
@@ -96,7 +89,7 @@
 	<ul>
 		<li> Algorithm Design
 			<ul>
-				<li> <em> Finding Circuit Extensions For XOR in Polynomial Time. 2024 </em> 
+				<li> <em> Simple Circuit Extensions For XOR in PTIME. 2024 </em> 
 					<ul>
 						<li>Joint work with Marco Carmosino and Tim Jackman</li>
 						<li>Description: we say an extension <b>g</b> of a total Boolean function <b>f</b> with <b>m</b> extra 
@@ -112,9 +105,7 @@
 							hardness mystery of MCSP once and for all. Thus, our algorithm formally raised another barrier 
 							on proving such hardness.
 						</li>
-						<li>Under Submission to Computational Complexity Conference 2025 (CCC' 25). 
-							A set of slides presenting this work can be found 
-							<a href="https://cs-people.bu.edu/tjackman/XOR%20Simple%20Extension%20is%20Easy.pdf">here</a>.
+						<li>A preprint of this work can be found <a href="http://nathandang97.github.io/f_SEP_preprint.pdf">here</a>.
 						</li>
 					</ul>
 				</li>
@@ -123,15 +114,12 @@
 		
 		<li> Circuit Complexity </li>
 			<ul>
-				<li> <em> A 2n + O(<span>&#8730;</span>n) tight-bound for the Multiplexer function. 2024 </em> 
+				<li> <em> On the possibility of a 2n + O(<span>&#8730;</span>n) tight-bound for the Multiplexer function. 2024 </em> 
 					<ul>
-						<li>Joint work with Marco Carmosino and Tim Jackman</li>
-						<li>Description: In the early 19070s, the circuit lower-bound of 2n - O(1) was shown for the Multiplexer function
-							(MUX), a Boolean function that commonly appears in practice, by Wolfgang Paul.
-							In this work, we aim to improve this lower-bound to 2n + O(<span>&#8730;</span>n) which matches the best 
-							known upper-bound for Multiplexer shown by Peter Klein and M.S. Paterson in 1978.
+						<li>Description: In the early 19070s, the circuit lower-bound of 2n - O(1) was shown for the single-output Multiplexer function (MUX), a Boolean function that commonly appears in practice, by Wolfgang Paul.
+						In this work, we aim to improve this lower-bound to 2n + O(<span>&#8730;</span>n) which matches the best known upper-bound for Multiplexer shown by Peter Klein and M.S. Paterson in 1978.
 						</li>
-						<li>Work in progress.</li>
+						<li>Work in progress. A survey of what we know so far about MUX can be found <a href="http://nathandang97.github.io/MUX_survey_preprint.pdf">here</a>.</li>
 					</ul>
 				</li>
 				<li> <em> Minimal XOR Circuits: The One True Shape is a Binary Tree. 2023 </em> 
@@ -143,14 +131,15 @@
 							and NOT-gates can be used for free, and in this setting, XOR has a trivial matching upper-bound. 
 							In this work, we push our understanding of XOR further by characterizing the structure of optimal 
 							circuits computing XOR.</li>
-						<li>Unpublished Manuscript. This work was integrated with <em>Finding Circuit Extensions For XOR in Polynomial Time</em>.
-							A set of slides presenting this work can be found <a href="http://nathandang97.github.io/BU-Theory-Seminar-Spring-24.pdf">here</a>.
+						<li>Unpublished Manuscript. This work was integrated with <em>Simple Circuit Extensions For XOR in PTIME</em>.
+							A write-up on this work can be found <a href="https://mcsp.work/opt-xor-shape.pdf">here</a> (for interest in this part of the our project only).
 						</li>
 					</ul>
 				</li>
 			</ul>
 		<li> Other Publications & Manuscripts
 			<ul>
+				<li> Marco Carmosino, <strong>Ngu Dang</strong>, Tim Jackman. 2023. <em>Formalizing Gate Elimination via Term Graphs Rewriting</em>. Work In Progress (preprint will be available soon). </li>
 				<li> Mariah Papy, Duncan Calder, <strong>Ngu Dang</strong>, Aidan McLaughlin, Breanna Desrochers, and John Magee.
 					2019. <a href="https://doi.org/10.1145/3308561.3354623">Simulation of Motor Impairment with “Reversed Angle Mouse”
 					in Head-Controlled Pointer Fitts’ Law Task</a>. In Proceedings of the 21st International ACM SIGACCESS
@@ -161,21 +150,13 @@
 
 	<h1 id="personal-project">Selected Personal Projects</h1>
 	<ul>
-		<li><strong>Human Activity Recognition Using Deep Learning</strong>: Built a deep learning pipeline using Python and PyTorch to classify human activities 
-			from Wi-Fi CSI data, achieving 0.98 accuracy score with a custom CNN-LSTM model. The Dataset for Human Activity Recognition using Wi-Fi Channel State 
-			Information (CSI) data can be found <a href="Dataset for Human Activity Recognition using Wi-Fi Channel State Information (CSI) data"> here</a>.
-			<a href=" https://github.com/NathanDang97/Human-Activity-Recognition-Using-CSI-and-Deep-Learning"> Github Link</a>
+		<li><strong>Tweet Dialect Classifier</strong>: Built a dialect classifying pipeline in Python with BERTweet-based model that distinguishes African American Vernacular English from Standard and regular African American English and achieved 0.95, 0.99, and 0.97 for accuracy, recall, and F1 score respectively. Integrated the classifier into a bias-aware sentiment analysis pipeline, with statistical analysis (Kruskal-Wallis H Test) to provide insights on fairness in interpretation of social media text across different models (i.e. RoBERTa, RoBERTa-Latest, BERTweet). <a href=https://github.com/NathanDang97/Tweet-Dialect-Classifier> Github Link</a>.
 		</li>
-		<li><strong>Churn Predictor for Subscription Services</strong>: Implemented an end-to-end churn prediction pipeline in Python for a video streaming service 
-			using a real-world imbalanced subscription dataset using an ensemble of three models — a neural network, XGBoost, and Random Forest — using weighted soft 
-			voting to optimize class ranking and maximize AUC.
-			<a href="https://github.com/NathanDang97/Churn-Classifier"> Github Link</a>
+		<li><strong>Human Activity Recognition Using Deep Learning</strong>: Built a deep learning pipeline using Python and PyTorch to classify human activities from Wi-Fi CSI data, achieving 0.98 accuracy score with a custom CNN-LSTM model. The Dataset for Human Activity Recognition using Wi-Fi Channel State Information (CSI) data can be found <a href="Dataset for Human Activity Recognition using Wi-Fi Channel State Information (CSI) data"> here</a>. <a href=" https://github.com/NathanDang97 Human-Activity-Recognition-Using-CSI-and-Deep-Learning"> Github Link</a>.
 		</li>
-		<li> <strong>Edible Mushroom Classifier </strong>: Implemented a Random Forest model classifying edible mushrooms from toxic ones 
-			based on physical characteristics. The dataset used in this project (train and test) was generated from a deep learning model 
-			trained on the <a href="https://archive.ics.uci.edu/dataset/73/mushroom"> UCI Mushroom dataset </a>. The training set contains 
-			3116945 data points; the test set contains 2077964 data points, with 22 features. The model achieved an accuracy score of 0.987. 
-			<a href="https://github.com/NathanDang97/Edible-Mushroom-Classifier"> Github Link </a>
+		<li><strong>Churn Predictor for Subscription Services</strong> (Coursera's Challenge): Implemented an end-to-end churn prediction pipeline in Python for a video streaming service using a real-world imbalanced subscription dataset using an ensemble of three models — a neural network, XGBoost, and Random Forest — using weighted soft voting to optimize class ranking and maximize AUC. <a href="https://github.com/NathanDang97/Churn-Classifier"> Github Link</a>.
+		</li>
+		<li> <strong>Edible Mushroom Classifier</strong> (Kaggle's Challenge): Implemented a Random Forest model classifying edible mushrooms from toxic ones based on physical characteristics. The dataset used in this project (train and test) was generated from a deep learning model trained on the <a href="https://archive.ics.uci.edu/dataset/73/mushroom"> UCI Mushroom dataset </a>. The training set contains  3116945 data points; the test set contains 2077964 data points, with 22 features. The model achieved an accuracy score of 0.987. <a href="https://github.com/NathanDang97/Edible-Mushroom-Classifier"> Github Link </a>.
 		</li>
 		<!-- <li> <strong>Disaster Tweets Classifier </strong>: Implemented a model classifying disastrous Tweets from regular ones using 
 			DistilBERT by HuggingFace, which was trained on over 7000 tweets. The model achieved an accuracy score of 0.818.
