@@ -87,9 +87,55 @@
 		
 	<h1 id="publications">Research Projects</h1>
 	<ul class="spaced">
-		<li> Algorithm Design
+		<li> Work In Progress
 			<ul class="spaced">
-				<li> <em> Simple Circuit Extensions For XOR in PTIME. 2024 </em> 
+				<li> <em> On tightening the Lower bound of Multiplexer (MUX). 2024 </em> 
+					<ul class="spaced">
+						<li>Description: In the early 19070s, the circuit lower-bound of 2n - O(1) was shown for the single-output Multiplexer function (MUX), a Boolean function that commonly appears in practice, by Wolfgang Paul.
+						In this work, we aim to improve this lower-bound as close as possible to 2n + O(<span>&#8730;</span>n), the best known upper-bound for Multiplexer shown by Peter Klein and M.S. Paterson in 1978.
+						</li>
+						<li>Work in progress. Joint with Marco Carmosino and Tim Jackman.</li>
+						<li>A survey of what we know so far about MUX can be found <a href="http://nathandang97.github.io/MUX_survey_preprint.pdf">here</a>.</li>
+					</ul>
+				</li>
+				<li> <em> Characterizing the Minimal Circuits for Equality Testing (EQ) function. 2025 </em>
+					<ul class="spaced">
+						<li>Description: given two input strings x and y, both of length n, we define EQ_n(x, y) = 1 iff x = y, the Boolean function that tests the equality of x and y. This function has a lower bound of 4n - 1 and a matching upper bound (Wegener, 1987). In this work, we aim to characterize the optimal circuits computing EQ_n that obeys its known tight bound.
+						</li>
+						<li>Work in progress. Joint with Tim Jackman. </li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		
+		<!-- <li> Circuit Complexity </li>
+			<ul class="spaced">
+				<li> <em> On the possibility of a 2n + O(<span>&#8730;</span>n) tight-bound for the Multiplexer function. 2024 </em> 
+					<ul class="spaced">
+						<li>Description: In the early 19070s, the circuit lower-bound of 2n - O(1) was shown for the single-output Multiplexer function (MUX), a Boolean function that commonly appears in practice, by Wolfgang Paul.
+						In this work, we aim to improve this lower-bound to 2n + O(<span>&#8730;</span>n) which matches the best known upper-bound for Multiplexer shown by Peter Klein and M.S. Paterson in 1978.
+						</li>
+						<li>Work in progress. A survey of what we know so far about MUX can be found <a href="http://nathandang97.github.io/MUX_survey_preprint.pdf">here</a>.</li>
+					</ul>
+				</li> -->
+				<!-- <li> <em> Minimal XOR Circuits: The One True Shape is a Binary Tree. 2023 </em> 
+					<ul class="spaced">
+						<li>Joint work with: Marco Carmosino and Tim Jackman.</li>
+						<li>Description: The Exclusive-OR function is one of the most fundamental Boolean functions that has appeared 
+							in many different contexts in both theory and practice. The circuit lower-bound of 3n - O(1) was shown 
+							for XOR by Claus-Peter Schnorr in 1974 under the DeMorgan Basis (which allows AND, OR, and NOT gates only), 
+							and NOT-gates can be used for free, and in this setting, XOR has a trivial matching upper-bound. 
+							In this work, we push our understanding of XOR further by characterizing the structure of optimal 
+							circuits computing XOR.</li>
+						<li>Unpublished Manuscript. This work was integrated with <em>Simple Circuit Extensions For XOR in PTIME</em>.
+							A write-up on this work can be found <a href="https://mcsp.work/opt-xor-shape.pdf">here</a> (for interest in this part of the our project only).
+						</li>
+					</ul>
+				</li> -->
+			<!-- </ul> -->
+		<li> Publications & Manuscripts
+			<ul class="spaced">
+				<!-- <li> <em> Simple Circuit Extensions For XOR in PTIME. 2024 </em> 
 					<ul>
 						<li>Joint work with Marco Carmosino and Tim Jackman.</li>
 						<li>Description: we say an extension <b>g</b> of a total Boolean function <b>f</b> with <b>m</b> extra 
@@ -108,38 +154,11 @@
 						<li>A preprint of this work can be found <a href="http://nathandang97.github.io/f_SEP_preprint.pdf">here</a>.
 						</li>
 					</ul>
-				</li>
-			</ul>
-		</li>
-		
-		<li> Circuit Complexity </li>
-			<ul class="spaced">
-				<li> <em> On the possibility of a 2n + O(<span>&#8730;</span>n) tight-bound for the Multiplexer function. 2024 </em> 
-					<ul class="spaced">
-						<li>Description: In the early 19070s, the circuit lower-bound of 2n - O(1) was shown for the single-output Multiplexer function (MUX), a Boolean function that commonly appears in practice, by Wolfgang Paul.
-						In this work, we aim to improve this lower-bound to 2n + O(<span>&#8730;</span>n) which matches the best known upper-bound for Multiplexer shown by Peter Klein and M.S. Paterson in 1978.
-						</li>
-						<li>Work in progress. A survey of what we know so far about MUX can be found <a href="http://nathandang97.github.io/MUX_survey_preprint.pdf">here</a>.</li>
-					</ul>
-				</li>
-				<li> <em> Minimal XOR Circuits: The One True Shape is a Binary Tree. 2023 </em> 
-					<ul class="spaced">
-						<li>Joint work with: Marco Carmosino and Tim Jackman.</li>
-						<li>Description: The Exclusive-OR function is one of the most fundamental Boolean functions that has appeared 
-							in many different contexts in both theory and practice. The circuit lower-bound of 3n - O(1) was shown 
-							for XOR by Claus-Peter Schnorr in 1974 under the DeMorgan Basis (which allows AND, OR, and NOT gates only), 
-							and NOT-gates can be used for free, and in this setting, XOR has a trivial matching upper-bound. 
-							In this work, we push our understanding of XOR further by characterizing the structure of optimal 
-							circuits computing XOR.</li>
-						<li>Unpublished Manuscript. This work was integrated with <em>Simple Circuit Extensions For XOR in PTIME</em>.
-							A write-up on this work can be found <a href="https://mcsp.work/opt-xor-shape.pdf">here</a> (for interest in this part of the our project only).
-						</li>
-					</ul>
-				</li>
-			</ul>
-		<li> Other Publications & Manuscripts
-			<ul class="spaced">
-				<li> Marco Carmosino, <strong>Ngu Dang</strong>, Tim Jackman. 2023. <em>Formalizing Gate Elimination via Term Graphs Rewriting</em>. Work In Progress (preprint will be available soon). </li>
+				</li> -->
+				<li> Marco Carmosino, <strong>Ngu Dang</strong>, Tim Jackman. 2024. <em>Simple Circuit Extensions for XOR in PTIME</em>. 
+					Under submission to STACS 2026. A preprint is available <a href="https://arxiv.org/abs/2511.16903">here</a>. </li>
+				<li> Marco Carmosino, <strong>Ngu Dang</strong>, Tim Jackman. 2023. <em>Formalizing Gate Elimination via Term Graphs Rewriting
+					</em>. To be submitted to FSCD 2026. A preprint is available <a href="http://nathandang97.github.io/Formalize_GE_preprint.pdf">here</a>. </li>
 				<li> Mariah Papy, Duncan Calder, <strong>Ngu Dang</strong>, Aidan McLaughlin, Breanna Desrochers, and John Magee.
 					2019. <a href="https://doi.org/10.1145/3308561.3354623">Simulation of Motor Impairment with “Reversed Angle Mouse”
 					in Head-Controlled Pointer Fitts’ Law Task</a>. In Proceedings of the 21st International ACM SIGACCESS
